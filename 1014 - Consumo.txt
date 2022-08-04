@@ -1,0 +1,19 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+        int distancia;
+            double gastoCombust, consumo;
+
+            distancia = Convert.ToInt32(Console.ReadLine());
+            gastoCombust = Convert.ToDouble(Console.ReadLine());
+
+            consumo = distancia /gastoCombust;
+
+            Console.WriteLine(Math.Round(consumo,3) + " km/l");
+
+    }
+
+}

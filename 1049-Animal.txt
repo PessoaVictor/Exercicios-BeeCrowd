@@ -1,0 +1,48 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+        string palavraId1, palavraId2, palavraId3;
+
+            palavraId1 = Console.ReadLine();
+            palavraId2 = Console.ReadLine();
+            palavraId3 = Console.ReadLine();
+
+            if (palavraId1 == "vertebrado" && palavraId2 =="ave" && palavraId3 == "carnivoro")
+            {
+                Console.WriteLine("aguia");
+            }
+            else if(palavraId1 == "vertebrado" && palavraId2 == "ave" && palavraId3 == "onivoro") 
+            {
+                Console.WriteLine("pomba");
+            }
+            else if(palavraId1 == "vertebrado" && palavraId2 == "mamifero" && palavraId3 == "onivoro") 
+            {
+                Console.WriteLine("homem");
+            }
+            else if (palavraId1 == "vertebrado" && palavraId2 == "mamifero" && palavraId3 == "herbivoro")
+            {
+                Console.WriteLine("vaca");
+            }
+            else if (palavraId1 == "invertebrado" && palavraId2 == "inseto" && palavraId3 == "hematofago")
+            {
+                Console.WriteLine("pulga");
+            }
+            else if (palavraId1 == "invertebrado" && palavraId2 == "inseto" && palavraId3 == "herbivoro")
+            {
+                Console.WriteLine("lagarta");
+            }
+            else if (palavraId1 == "invertebrado" && palavraId2 == "anelideo" && palavraId3 == "hematofago")
+            {
+                Console.WriteLine("sanguessuga");
+            }
+            else if (palavraId1 == "invertebrado" && palavraId2 == "anelideo" && palavraId3 == "onivoro")
+            {
+                Console.WriteLine("minhoca");
+            }
+
+    }
+
+}

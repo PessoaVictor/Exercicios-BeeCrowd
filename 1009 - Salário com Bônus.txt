@@ -1,0 +1,19 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+       string nome;
+            double sFixo, totVendas, totReceb;
+
+            nome = Console.ReadLine();
+            sFixo = Convert.ToDouble(Console.ReadLine());
+            totVendas = Convert.ToDouble(Console.ReadLine());
+            totReceb = (totVendas * 0.15) + sFixo;
+
+            Console.WriteLine("TOTAL = R$ " + totReceb.ToString("F"));
+
+    }
+
+}

@@ -1,0 +1,17 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+        double tempo, veloc, litros;
+
+            tempo = Convert.ToDouble(Console.ReadLine());
+            veloc = Convert.ToDouble(Console.ReadLine());
+            litros = tempo * veloc / 12;
+
+            Console.WriteLine(litros.ToString("N3"));
+
+    }
+
+}

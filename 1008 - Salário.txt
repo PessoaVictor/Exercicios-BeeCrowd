@@ -1,0 +1,21 @@
+using System; 
+
+class URI {
+
+    static void Main(string[] args) { 
+
+        int numFunc;
+            int hrsTrab;
+            double vlrHr;
+
+            numFunc = Convert.ToInt32(Console.ReadLine());
+            hrsTrab = Convert.ToInt32(Console.ReadLine());
+            vlrHr = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("NUMBER = " + numFunc);
+            double salary = hrsTrab * vlrHr;
+            Console.WriteLine("SALARY = U$ " + salary.ToString("F"));
+
+    }
+
+}
